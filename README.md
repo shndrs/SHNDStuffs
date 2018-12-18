@@ -22,6 +22,8 @@ override func viewDidLoad() {
 
 and for using SHNDView, SHNDButton, SHNDImageView just put one of these classes into subclass of your objects, and that's set... you have AWESOME features in your NavigationInspector
 
+![example 1](https://user-images.githubusercontent.com/34839080/50151764-14b2d800-02d7-11e9-8e1f-f8e098312ab8.png)
+
 ## Requirements
 Swift 4.0 or later
 ## Installation
