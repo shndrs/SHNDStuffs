@@ -10,7 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
+Swift 4.0 or later
 ## Installation
 
 SHNDStuffs is available through [CocoaPods](https://cocoapods.org). To install
