@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		16BA4A3DD799CE85BEA8B48A54328C76 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8251263AD602073A0ADC26EA705CE0F /* ReplaceMe.swift */; };
+		2F87D12521C8EECD00B08BDA /* SHNDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87D12421C8EECD00B08BDA /* SHNDView.swift */; };
+		2F87D12721C8EF1F00B08BDA /* SHNDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87D12621C8EF1F00B08BDA /* SHNDButton.swift */; };
+		2F87D12921C8EF5500B08BDA /* SHNDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87D12821C8EF5500B08BDA /* SHNDImageView.swift */; };
+		2F87D12B21C8EF8B00B08BDA /* SHNDNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87D12A21C8EF8B00B08BDA /* SHNDNavigationBar.swift */; };
 		3ECFEE60F2DC52C40058ECF28025AB10 /* SHNDStuffs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8733EEFFAF4C49B5423A505D31A92 /* SHNDStuffs-dummy.m */; };
 		4C039B92E7FFF48C9F89359008C92578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		68D4EBEC4F997BB31B00FF2661186112 /* Pods-SHNDStuffs_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F19FCFA289758902FC2295CE7C83836 /* Pods-SHNDStuffs_Tests-dummy.m */; };
@@ -38,37 +42,41 @@
 
 /* Begin PBXFileReference section */
 		03FB9F36AFFDA3FD2BA39B69C75B096E /* Pods-SHNDStuffs_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHNDStuffs_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		08EFA3705BE146D53CF6F8F6BF28A1E8 /* SHNDStuffs.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SHNDStuffs.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1F039FC7C1E20FC82EC5467F34268ACF /* Pods_SHNDStuffs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SHNDStuffs_Example.framework; path = "Pods-SHNDStuffs_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EFA3705BE146D53CF6F8F6BF28A1E8 /* SHNDStuffs.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SHNDStuffs.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F039FC7C1E20FC82EC5467F34268ACF /* Pods_SHNDStuffs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHNDStuffs_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		224BB4F9E7ADEF98D7746576263CA8B8 /* Pods-SHNDStuffs_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDStuffs_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2AB7F90B0DD494B2397987FBAD557D40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CAE9C96D2807E1AAD6F6E8DC774DEF9 /* Pods-SHNDStuffs_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHNDStuffs_Example-dummy.m"; sourceTree = "<group>"; };
 		2CBD2F633DA7A0B0C239841AC4F532B7 /* SHNDStuffs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHNDStuffs.xcconfig; sourceTree = "<group>"; };
+		2F87D12421C8EECD00B08BDA /* SHNDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNDView.swift; sourceTree = "<group>"; };
+		2F87D12621C8EF1F00B08BDA /* SHNDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNDButton.swift; sourceTree = "<group>"; };
+		2F87D12821C8EF5500B08BDA /* SHNDImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNDImageView.swift; sourceTree = "<group>"; };
+		2F87D12A21C8EF8B00B08BDA /* SHNDNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNDNavigationBar.swift; sourceTree = "<group>"; };
 		4A80F06870D03F12D5FC5CCEDDD3B2A2 /* Pods-SHNDStuffs_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDStuffs_Example-resources.sh"; sourceTree = "<group>"; };
 		4BD12550A5F0F9D5CDED7B79AFC684F6 /* Pods-SHNDStuffs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDStuffs_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E62D797312C2D413E5D05809D3EAA4D /* Pods-SHNDStuffs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDStuffs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6993F1C71093C44C39624160EEFA87F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DEBD24A0D431B7A685F5A0A06E6A96C /* Pods-SHNDStuffs_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDStuffs_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7FA9068786396762CA7F2C4B71C02026 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7FA9068786396762CA7F2C4B71C02026 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8BF8733EEFFAF4C49B5423A505D31A92 /* SHNDStuffs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHNDStuffs-dummy.m"; sourceTree = "<group>"; };
 		8E95C1D00E07CC620040D7CA4732BACF /* Pods-SHNDStuffs_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHNDStuffs_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8ED4BA1C4246F17FDC50A5F96E69F622 /* SHNDStuffs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHNDStuffs-prefix.pch"; sourceTree = "<group>"; };
 		8F19FCFA289758902FC2295CE7C83836 /* Pods-SHNDStuffs_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHNDStuffs_Tests-dummy.m"; sourceTree = "<group>"; };
 		8FFC329D664B692922393A472123DC60 /* Pods-SHNDStuffs_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHNDStuffs_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A39885552385CCABFE3B56A2E9BA8684 /* Pods-SHNDStuffs_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDStuffs_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A6ED72E5F0447BEDF962F912BF87E46D /* SHNDStuffs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHNDStuffs.modulemap; sourceTree = "<group>"; };
 		B8251263AD602073A0ADC26EA705CE0F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SHNDStuffs/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		B865FA269F486D0D7600F1DB5FAE99A2 /* Pods-SHNDStuffs_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHNDStuffs_Tests.modulemap"; sourceTree = "<group>"; };
-		B936180AFB62BC2F24BD6AC6062D016B /* Pods_SHNDStuffs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SHNDStuffs_Tests.framework; path = "Pods-SHNDStuffs_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B936180AFB62BC2F24BD6AC6062D016B /* Pods_SHNDStuffs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHNDStuffs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDFEB37983A54ED3FEC1E966A5A82F4 /* Pods-SHNDStuffs_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHNDStuffs_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0A82466EE1E314E12D868BD63414DDD /* SHNDStuffs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHNDStuffs-umbrella.h"; sourceTree = "<group>"; };
 		C3E9F7503B276E0285E8013FAF12FD59 /* Pods-SHNDStuffs_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHNDStuffs_Example.modulemap"; sourceTree = "<group>"; };
 		D6091480FE603030ED36625CB759E8CF /* Pods-SHNDStuffs_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHNDStuffs_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DCAA6430C809C56C788185834D78C205 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DCAA6430C809C56C788185834D78C205 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE4C04872EA18172812AC5D342FB7837 /* Pods-SHNDStuffs_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDStuffs_Tests-resources.sh"; sourceTree = "<group>"; };
-		DF6A765733C9C5A00E7B03B7211DAFDA /* SHNDStuffs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHNDStuffs.framework; path = SHNDStuffs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6A765733C9C5A00E7B03B7211DAFDA /* SHNDStuffs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHNDStuffs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0570B36A1898045E3F794CDC0EDADC7 /* Pods-SHNDStuffs_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHNDStuffs_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F922537FA9494A1B74BDF52177D614F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF8828A143AEFEF83DBFE0CB90EFAAD0 /* Pods-SHNDStuffs_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDStuffs_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +117,49 @@
 				DC0314EFEF11780B21D7397F4734A35B /* Pods-SHNDStuffs_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2F87D11F21C8EDFF00B08BDA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F87D12321C8EE3B00B08BDA /* SHNDNavigationBar */,
+				2F87D12221C8EE2A00B08BDA /* SHNDImageView */,
+				2F87D12121C8EE1B00B08BDA /* SHNDButton */,
+				2F87D12021C8EE0B00B08BDA /* SHNDView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2F87D12021C8EE0B00B08BDA /* SHNDView */ = {
+			isa = PBXGroup;
+			children = (
+				2F87D12421C8EECD00B08BDA /* SHNDView.swift */,
+			);
+			path = SHNDView;
+			sourceTree = "<group>";
+		};
+		2F87D12121C8EE1B00B08BDA /* SHNDButton */ = {
+			isa = PBXGroup;
+			children = (
+				2F87D12621C8EF1F00B08BDA /* SHNDButton.swift */,
+			);
+			path = SHNDButton;
+			sourceTree = "<group>";
+		};
+		2F87D12221C8EE2A00B08BDA /* SHNDImageView */ = {
+			isa = PBXGroup;
+			children = (
+				2F87D12821C8EF5500B08BDA /* SHNDImageView.swift */,
+			);
+			path = SHNDImageView;
+			sourceTree = "<group>";
+		};
+		2F87D12321C8EE3B00B08BDA /* SHNDNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				2F87D12A21C8EF8B00B08BDA /* SHNDNavigationBar.swift */,
+			);
+			path = SHNDNavigationBar;
 			sourceTree = "<group>";
 		};
 		51CD0951C04FF0C67E01957C926FA829 /* Products */ = {
@@ -168,6 +219,7 @@
 		70A15E248FFB966E53E603E292B6D570 /* SHNDStuffs */ = {
 			isa = PBXGroup;
 			children = (
+				2F87D11F21C8EDFF00B08BDA /* Classes */,
 				B8251263AD602073A0ADC26EA705CE0F /* ReplaceMe.swift */,
 				68BD9ACA98B73AEC73F78B148B42C543 /* Pod */,
 				F80A84EBC7B538837D1E302569656C05 /* Support Files */,
@@ -378,7 +430,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F87D12721C8EF1F00B08BDA /* SHNDButton.swift in Sources */,
+				2F87D12521C8EECD00B08BDA /* SHNDView.swift in Sources */,
+				2F87D12B21C8EF8B00B08BDA /* SHNDNavigationBar.swift in Sources */,
 				16BA4A3DD799CE85BEA8B48A54328C76 /* ReplaceMe.swift in Sources */,
+				2F87D12921C8EF5500B08BDA /* SHNDImageView.swift in Sources */,
 				3ECFEE60F2DC52C40058ECF28025AB10 /* SHNDStuffs-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,8 +618,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -726,8 +781,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

@@ -43,10 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		95BF810684EC9848E1672472 /* Pods-SHNDStuffs_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHNDStuffs_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHNDStuffs_Example/Pods-SHNDStuffs_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AF3F7744B3DD72C819AF1256 /* Pods_SHNDStuffs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHNDStuffs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D220BC11578D945DD8D20F1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D220BC11578D945DD8D20F1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EBA83B753768EF615CCEE328 /* Pods-SHNDStuffs_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHNDStuffs_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHNDStuffs_Example/Pods-SHNDStuffs_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC7E5212CB6171D72AC195A6 /* SHNDStuffs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SHNDStuffs.podspec; path = ../SHNDStuffs.podspec; sourceTree = "<group>"; };
-		EF85F712BCB4B9BECB69E639 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EC7E5212CB6171D72AC195A6 /* SHNDStuffs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHNDStuffs.podspec; path = ../SHNDStuffs.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF85F712BCB4B9BECB69E639 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -488,6 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -503,6 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
