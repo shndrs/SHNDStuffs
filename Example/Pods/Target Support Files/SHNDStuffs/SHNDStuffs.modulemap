@@ -1,0 +1,6 @@
+framework module SHNDStuffs {
+  umbrella header "SHNDStuffs-umbrella.h"
+
+  export *
+  module * { export * }
+}

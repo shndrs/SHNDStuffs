@@ -1,0 +1,16 @@
+PODS:
+  - SHNDStuffs (0.1.0)
+
+DEPENDENCIES:
+  - SHNDStuffs (from `../`)
+
+EXTERNAL SOURCES:
+  SHNDStuffs:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SHNDStuffs: d0d709755966f04718e241a5753f34e778ecea08
+
+PODFILE CHECKSUM: 19fb75589e79eedae6996ea6033a0b42fb2cfb8a
+
+COCOAPODS: 1.5.3
