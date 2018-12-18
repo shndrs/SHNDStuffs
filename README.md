@@ -10,6 +10,12 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 
+For using SHNDView, SHNDButton, SHNDImageView just put one of these classes into subclass of your objects, and that's set... you have AWESOME features in your NavigationInspector
+
+![example 1](https://user-images.githubusercontent.com/34839080/50151764-14b2d800-02d7-11e9-8e1f-f8e098312ab8.png)
+
+# UINavigationBar Gradient
+
 for set UINavigationBar gradient and it's tintColor use the function below in viewDidLoad():
 ```Swift
 override func viewDidLoad() {
@@ -20,10 +26,6 @@ override func viewDidLoad() {
     }
 ```
 ![example 0](https://user-images.githubusercontent.com/34839080/50152348-a0793400-02d8-11e9-87e8-1691413827fe.png)
-
-and for using SHNDView, SHNDButton, SHNDImageView just put one of these classes into subclass of your objects, and that's set... you have AWESOME features in your NavigationInspector
-
-![example 1](https://user-images.githubusercontent.com/34839080/50151764-14b2d800-02d7-11e9-8e1f-f8e098312ab8.png)
 
 ## Requirements
 Swift 4.0 or later
