@@ -10,8 +10,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 
-Set UINavigationBar gradient and tintColor use the function blow:
-```
+Set UINavigationBar gradient and it's tintColor use the function blow:
+```Swift
 override func viewDidLoad() {
         super.viewDidLoad()
         
