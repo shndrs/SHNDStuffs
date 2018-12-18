@@ -9,14 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-for UINavigationBar gradient use:
-
-override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        SHNDNavigationBarGradient(leftColor:UIColor , rightColor:UIColor, tintColor:UIColor? = .black)
-    }
-
 
 ## Requirements
 Swift 4.0 or later
