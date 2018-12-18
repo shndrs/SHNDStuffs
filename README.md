@@ -25,7 +25,8 @@ override func viewDidLoad() {
         
     }
 ```
-![example 0](https://user-images.githubusercontent.com/34839080/50152348-a0793400-02d8-11e9-87e8-1691413827fe.png) ,![example 3](https://user-images.githubusercontent.com/34839080/50155260-e803be00-02e0-11e9-9498-4b7bbecfe6af.png), ![example 4](https://user-images.githubusercontent.com/34839080/50155274-ee923580-02e0-11e9-8e48-bb87c25fa369.png)
+![example 0](https://user-images.githubusercontent.com/34839080/50152348-a0793400-02d8-11e9-87e8-1691413827fe.png) ,
+![example 3](https://user-images.githubusercontent.com/34839080/50155445-4f217280-02e1-11e9-83b7-fb2955ec2f00.png), ![example 4](https://user-images.githubusercontent.com/34839080/50155449-55175380-02e1-11e9-92ba-baabf922fd99.png)
 
 ## Requirements
 Swift 4.0 or later
