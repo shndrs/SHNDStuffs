@@ -62,7 +62,7 @@ open class SHNDImageView: UIImageView {
     }
     
     // MARK: Funcs
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         //        super.layoutSubviews()
         //        layer.shadowColor = shadowColor.cgColor
         //        layer.shadowOpacity = Float(shadowOpacity)
@@ -72,7 +72,7 @@ open class SHNDImageView: UIImageView {
     }
     
     
-    override func draw(_ rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         if clipsToBounds && shadowOpacity > 0 {
             layer.masksToBounds = true
             layer.cornerRadius = cornerRadius
@@ -91,7 +91,7 @@ open class SHNDImageView: UIImageView {
         }
     }
     
-    override func awakeFromNib() {
+    override open func awakeFromNib() {
         if pulseDelay > 0 {
             UIView.animate(withDuration: 1, delay: pulseDelay, usingSpringWithDamping: 0.4, initialSpringVelocity: 0, options: [], animations: {
                 self.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
