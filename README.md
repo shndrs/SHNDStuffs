@@ -24,7 +24,7 @@ override func viewDidLoad() {
         SHNDNavigationBarGradient(leftColor: .darkGray,
                                   rightColor: .white,
                                   tintColor: .black,
-                                  isHorizontal: true  
+                                  isHorizontal: true)
     }
 ```
 ![example 0](https://user-images.githubusercontent.com/34839080/50152348-a0793400-02d8-11e9-87e8-1691413827fe.png) ,
