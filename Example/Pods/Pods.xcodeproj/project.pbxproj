@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16BA4A3DD799CE85BEA8B48A54328C76 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8251263AD602073A0ADC26EA705CE0F /* ReplaceMe.swift */; };
-		2F87D12521C8EECD00B08BDA /* SHNDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87D12421C8EECD00B08BDA /* SHNDView.swift */; };
-		2F87D12721C8EF1F00B08BDA /* SHNDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87D12621C8EF1F00B08BDA /* SHNDButton.swift */; };
-		2F87D12921C8EF5500B08BDA /* SHNDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87D12821C8EF5500B08BDA /* SHNDImageView.swift */; };
-		2F87D12B21C8EF8B00B08BDA /* SHNDNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87D12A21C8EF8B00B08BDA /* SHNDNavigationBar.swift */; };
+		2FBE30D821CE4C7400ABB709 /* SHNDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE30D721CE4C7400ABB709 /* SHNDButton.swift */; };
+		2FBE30DA21CE4C8000ABB709 /* SHNDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE30D921CE4C8000ABB709 /* SHNDImageView.swift */; };
+		2FBE30DC21CE4C8C00ABB709 /* SHNDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE30DB21CE4C8C00ABB709 /* SHNDView.swift */; };
+		2FBE30DE21CE4C9600ABB709 /* SHNDNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE30DD21CE4C9500ABB709 /* SHNDNavigationBar.swift */; };
 		3ECFEE60F2DC52C40058ECF28025AB10 /* SHNDStuffs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8733EEFFAF4C49B5423A505D31A92 /* SHNDStuffs-dummy.m */; };
 		4C039B92E7FFF48C9F89359008C92578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		68D4EBEC4F997BB31B00FF2661186112 /* Pods-SHNDStuffs_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F19FCFA289758902FC2295CE7C83836 /* Pods-SHNDStuffs_Tests-dummy.m */; };
@@ -48,10 +47,10 @@
 		2AB7F90B0DD494B2397987FBAD557D40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CAE9C96D2807E1AAD6F6E8DC774DEF9 /* Pods-SHNDStuffs_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHNDStuffs_Example-dummy.m"; sourceTree = "<group>"; };
 		2CBD2F633DA7A0B0C239841AC4F532B7 /* SHNDStuffs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHNDStuffs.xcconfig; sourceTree = "<group>"; };
-		2F87D12421C8EECD00B08BDA /* SHNDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNDView.swift; sourceTree = "<group>"; };
-		2F87D12621C8EF1F00B08BDA /* SHNDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNDButton.swift; sourceTree = "<group>"; };
-		2F87D12821C8EF5500B08BDA /* SHNDImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNDImageView.swift; sourceTree = "<group>"; };
-		2F87D12A21C8EF8B00B08BDA /* SHNDNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNDNavigationBar.swift; sourceTree = "<group>"; };
+		2FBE30D721CE4C7400ABB709 /* SHNDButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SHNDButton.swift; path = SHNDStuffs/Classes/SHNDButton/SHNDButton.swift; sourceTree = "<group>"; };
+		2FBE30D921CE4C8000ABB709 /* SHNDImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SHNDImageView.swift; path = SHNDStuffs/Classes/SHNDImageView/SHNDImageView.swift; sourceTree = "<group>"; };
+		2FBE30DB21CE4C8C00ABB709 /* SHNDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SHNDView.swift; path = SHNDStuffs/Classes/SHNDView/SHNDView.swift; sourceTree = "<group>"; };
+		2FBE30DD21CE4C9500ABB709 /* SHNDNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SHNDNavigationBar.swift; path = SHNDStuffs/Classes/SHNDNavigationBar/SHNDNavigationBar.swift; sourceTree = "<group>"; };
 		4A80F06870D03F12D5FC5CCEDDD3B2A2 /* Pods-SHNDStuffs_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDStuffs_Example-resources.sh"; sourceTree = "<group>"; };
 		4BD12550A5F0F9D5CDED7B79AFC684F6 /* Pods-SHNDStuffs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDStuffs_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E62D797312C2D413E5D05809D3EAA4D /* Pods-SHNDStuffs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDStuffs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +66,6 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A39885552385CCABFE3B56A2E9BA8684 /* Pods-SHNDStuffs_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDStuffs_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A6ED72E5F0447BEDF962F912BF87E46D /* SHNDStuffs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHNDStuffs.modulemap; sourceTree = "<group>"; };
-		B8251263AD602073A0ADC26EA705CE0F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SHNDStuffs/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		B865FA269F486D0D7600F1DB5FAE99A2 /* Pods-SHNDStuffs_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHNDStuffs_Tests.modulemap"; sourceTree = "<group>"; };
 		B936180AFB62BC2F24BD6AC6062D016B /* Pods_SHNDStuffs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHNDStuffs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDFEB37983A54ED3FEC1E966A5A82F4 /* Pods-SHNDStuffs_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHNDStuffs_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -119,47 +117,47 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2F87D11F21C8EDFF00B08BDA /* Classes */ = {
+		2FBE30D221CE4BD200ABB709 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2F87D12321C8EE3B00B08BDA /* SHNDNavigationBar */,
-				2F87D12221C8EE2A00B08BDA /* SHNDImageView */,
-				2F87D12121C8EE1B00B08BDA /* SHNDButton */,
-				2F87D12021C8EE0B00B08BDA /* SHNDView */,
+				2FBE30D621CE4C0E00ABB709 /* SHNDNavigationBar */,
+				2FBE30D521CE4BFD00ABB709 /* SHNDImageView */,
+				2FBE30D421CE4BF300ABB709 /* SHNDButton */,
+				2FBE30D321CE4BEA00ABB709 /* SHNDView */,
 			);
-			path = Classes;
+			name = Classes;
 			sourceTree = "<group>";
 		};
-		2F87D12021C8EE0B00B08BDA /* SHNDView */ = {
+		2FBE30D321CE4BEA00ABB709 /* SHNDView */ = {
 			isa = PBXGroup;
 			children = (
-				2F87D12421C8EECD00B08BDA /* SHNDView.swift */,
+				2FBE30DB21CE4C8C00ABB709 /* SHNDView.swift */,
 			);
-			path = SHNDView;
+			name = SHNDView;
 			sourceTree = "<group>";
 		};
-		2F87D12121C8EE1B00B08BDA /* SHNDButton */ = {
+		2FBE30D421CE4BF300ABB709 /* SHNDButton */ = {
 			isa = PBXGroup;
 			children = (
-				2F87D12621C8EF1F00B08BDA /* SHNDButton.swift */,
+				2FBE30D721CE4C7400ABB709 /* SHNDButton.swift */,
 			);
-			path = SHNDButton;
+			name = SHNDButton;
 			sourceTree = "<group>";
 		};
-		2F87D12221C8EE2A00B08BDA /* SHNDImageView */ = {
+		2FBE30D521CE4BFD00ABB709 /* SHNDImageView */ = {
 			isa = PBXGroup;
 			children = (
-				2F87D12821C8EF5500B08BDA /* SHNDImageView.swift */,
+				2FBE30D921CE4C8000ABB709 /* SHNDImageView.swift */,
 			);
-			path = SHNDImageView;
+			name = SHNDImageView;
 			sourceTree = "<group>";
 		};
-		2F87D12321C8EE3B00B08BDA /* SHNDNavigationBar */ = {
+		2FBE30D621CE4C0E00ABB709 /* SHNDNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				2F87D12A21C8EF8B00B08BDA /* SHNDNavigationBar.swift */,
+				2FBE30DD21CE4C9500ABB709 /* SHNDNavigationBar.swift */,
 			);
-			path = SHNDNavigationBar;
+			name = SHNDNavigationBar;
 			sourceTree = "<group>";
 		};
 		51CD0951C04FF0C67E01957C926FA829 /* Products */ = {
@@ -201,6 +199,7 @@
 		68BD9ACA98B73AEC73F78B148B42C543 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				2FBE30D221CE4BD200ABB709 /* Classes */,
 				7FA9068786396762CA7F2C4B71C02026 /* LICENSE */,
 				DCAA6430C809C56C788185834D78C205 /* README.md */,
 				08EFA3705BE146D53CF6F8F6BF28A1E8 /* SHNDStuffs.podspec */,
@@ -219,8 +218,6 @@
 		70A15E248FFB966E53E603E292B6D570 /* SHNDStuffs */ = {
 			isa = PBXGroup;
 			children = (
-				2F87D11F21C8EDFF00B08BDA /* Classes */,
-				B8251263AD602073A0ADC26EA705CE0F /* ReplaceMe.swift */,
 				68BD9ACA98B73AEC73F78B148B42C543 /* Pod */,
 				F80A84EBC7B538837D1E302569656C05 /* Support Files */,
 			);
@@ -430,11 +427,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F87D12721C8EF1F00B08BDA /* SHNDButton.swift in Sources */,
-				2F87D12521C8EECD00B08BDA /* SHNDView.swift in Sources */,
-				2F87D12B21C8EF8B00B08BDA /* SHNDNavigationBar.swift in Sources */,
-				16BA4A3DD799CE85BEA8B48A54328C76 /* ReplaceMe.swift in Sources */,
-				2F87D12921C8EF5500B08BDA /* SHNDImageView.swift in Sources */,
+				2FBE30DA21CE4C8000ABB709 /* SHNDImageView.swift in Sources */,
+				2FBE30DC21CE4C8C00ABB709 /* SHNDView.swift in Sources */,
+				2FBE30D821CE4C7400ABB709 /* SHNDButton.swift in Sources */,
+				2FBE30DE21CE4C9600ABB709 /* SHNDNavigationBar.swift in Sources */,
 				3ECFEE60F2DC52C40058ECF28025AB10 /* SHNDStuffs-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
