@@ -19,13 +19,13 @@ For using SHNDView, SHNDButton, SHNDImageView just put one of these classes into
 for set UINavigationBar gradient and it's tintColor use the function below in viewDidLoad():
 ```Swift
 override func viewDidLoad() {
-        super.viewDidLoad()
+    super.viewDidLoad()
         
-        SHNDNavigationBarGradient(leftColor: .darkGray,
-                                  rightColor: .white,
-                                  tintColor: .black,
-                                  isHorizontal: true)
-    }
+    SHNDNavigationBarGradient(leftColor: .darkGray,
+                              rightColor: .white,
+                              tintColor: .black,
+                              isHorizontal: true)
+}
 ```
 ![example 0](https://user-images.githubusercontent.com/34839080/50152348-a0793400-02d8-11e9-87e8-1691413827fe.png) ,
 ![example 3](https://user-images.githubusercontent.com/34839080/50155445-4f217280-02e1-11e9-83b7-fb2955ec2f00.png), ![example 4](https://user-images.githubusercontent.com/34839080/50155449-55175380-02e1-11e9-92ba-baabf922fd99.png)
@@ -53,6 +53,7 @@ override func viewDidLoad() {
 
 ![shndnavcustomtitleview](https://user-images.githubusercontent.com/34839080/50560864-22764d80-0d1a-11e9-8ed5-51e500ead09f.png)
 
+so simple, right?! 😋😋
 
 # SHNDButton After Tap Animation
 
