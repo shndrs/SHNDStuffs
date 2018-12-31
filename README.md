@@ -30,6 +30,30 @@ override func viewDidLoad() {
 ![example 0](https://user-images.githubusercontent.com/34839080/50152348-a0793400-02d8-11e9-87e8-1691413827fe.png) ,
 ![example 3](https://user-images.githubusercontent.com/34839080/50155445-4f217280-02e1-11e9-83b7-fb2955ec2f00.png), ![example 4](https://user-images.githubusercontent.com/34839080/50155449-55175380-02e1-11e9-92ba-baabf922fd99.png)
 
+
+# SHNDNavigationCustomTitleView
+
+For set UINavigationBarItem custom title view use the builder pattern below in viewDidLoad():
+
+```Swift
+
+
+override func viewDidLoad() {
+    super.viewDidLoad()
+    let navTitleBuilder = NavigationTitleViewBuilder(title: "SHNDStuffs",
+                                                     desc: "Custom Title View",
+                                                     titleFont: UIFont(name: "Papyrus", size: 18)!,
+                                                     descFont: UIFont(name: "Kailasa", size: 10)!,
+                                                     titleTextColor: .purple,
+                                                     descTextColor: .black)
+    SHNDNavigationCustomTitleView(builder: navTitleBuilder)                                                     
+}
+
+```
+
+![shndnavcustomtitleview](https://user-images.githubusercontent.com/34839080/50560864-22764d80-0d1a-11e9-8ed5-51e500ead09f.png)
+
+
 # SHNDButton After Tap Animation
 
 if you wanna get an animation(shake, pulsate or flash) after you tapped the button :
