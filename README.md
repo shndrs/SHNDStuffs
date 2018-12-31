@@ -9,11 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-
-For using SHNDView, SHNDButton, SHNDImageView just put one of these classes into subclass of your objects, and that's set... you have AWESOME features in your NavigationInspector
-
-![example 1](https://user-images.githubusercontent.com/34839080/50151764-14b2d800-02d7-11e9-8e1f-f8e098312ab8.png)
-
 # UINavigationBar Gradient
 
 for set UINavigationBar gradient and it's tintColor use the function below in viewDidLoad():
@@ -71,6 +66,12 @@ if you wanna get an animation(shake, pulsate or flash) after you tapped the butt
 }
 
 ```
+# SHNDView, SHNDButton, SHNDImageView
+
+For using SHNDView, SHNDButton, SHNDImageView just put one of these classes into subclass of your objects, and that's set... you have AWESOME features in your NavigationInspector
+
+![shndviewimage](https://user-images.githubusercontent.com/34839080/50561395-7c2d4680-0d1f-11e9-981a-be082bd8335d.png)
+
 
 ## Requirements
 Swift 4.0 or later
