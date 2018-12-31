@@ -30,6 +30,23 @@ override func viewDidLoad() {
 ![example 0](https://user-images.githubusercontent.com/34839080/50152348-a0793400-02d8-11e9-87e8-1691413827fe.png) ,
 ![example 3](https://user-images.githubusercontent.com/34839080/50155445-4f217280-02e1-11e9-83b7-fb2955ec2f00.png), ![example 4](https://user-images.githubusercontent.com/34839080/50155449-55175380-02e1-11e9-92ba-baabf922fd99.png)
 
+# SHNDButton After Tap Animation
+
+if you wanna get an animation(shake, pulsate or flash) after you tapped the button :
+
+```Swift
+
+@IBAction func buttonPressed(_ sender: SHNDButton) {
+
+    let animationElements = AnimationElements(duration: 0.1,
+                                              repeatCount: 3,
+                                              autoreverses: true,
+                                              animationMode: .shake)
+    sender.SHNDButtonAnimation(animationElements: animationElements)
+}
+
+```
+
 ## Requirements
 Swift 4.0 or later
 ## Installation
