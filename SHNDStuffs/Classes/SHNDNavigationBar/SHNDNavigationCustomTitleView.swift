@@ -2,7 +2,7 @@
 //  SHNDNavigationCustomTitleView.swift
 //  SHNDStuffs
 //
-//  Created by Sahand Raeisi on 12/31/18.
+//  Created by Sahand Raeisi on 1/1/19.
 //
 
 import UIKit

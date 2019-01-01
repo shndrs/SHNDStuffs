@@ -2,7 +2,7 @@
 //  SHNDNavigationBar.swift
 //  SHNDStuffs
 //
-//  Created by Sahand Raeisi on 12/18/18.
+//  Created by Sahand Raeisi on 1/1/19.
 //
 
 import UIKit
