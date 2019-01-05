@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F3B8E2B21E0C389003C1404 /* SHNDShimmerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B8E2A21E0C389003C1404 /* SHNDShimmerLabel.swift */; };
 		2F4A2F4621DB7EFD00DEB1FF /* SHNDNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4521DB7EFD00DEB1FF /* SHNDNavigationBar.swift */; };
 		2F4A2F4821DB7F6300DEB1FF /* SHNDNavigationCustomTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4721DB7F6300DEB1FF /* SHNDNavigationCustomTitleView.swift */; };
 		2F4A2F4A21DB7FA300DEB1FF /* SHNDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4921DB7FA300DEB1FF /* SHNDImageView.swift */; };
@@ -49,6 +50,7 @@
 		2AB7F90B0DD494B2397987FBAD557D40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CAE9C96D2807E1AAD6F6E8DC774DEF9 /* Pods-SHNDStuffs_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHNDStuffs_Example-dummy.m"; sourceTree = "<group>"; };
 		2CBD2F633DA7A0B0C239841AC4F532B7 /* SHNDStuffs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHNDStuffs.xcconfig; sourceTree = "<group>"; };
+		2F3B8E2A21E0C389003C1404 /* SHNDShimmerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDShimmerLabel.swift; path = SHNDStuffs/Classes/SHNDLabel/SHNDShimmerLabel.swift; sourceTree = "<group>"; };
 		2F4A2F4521DB7EFD00DEB1FF /* SHNDNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDNavigationBar.swift; path = SHNDStuffs/Classes/SHNDNavigationBar/SHNDNavigationBar.swift; sourceTree = "<group>"; };
 		2F4A2F4721DB7F6300DEB1FF /* SHNDNavigationCustomTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDNavigationCustomTitleView.swift; path = SHNDStuffs/Classes/SHNDNavigationBar/SHNDNavigationCustomTitleView.swift; sourceTree = "<group>"; };
 		2F4A2F4921DB7FA300DEB1FF /* SHNDImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDImageView.swift; path = SHNDStuffs/Classes/SHNDImageView/SHNDImageView.swift; sourceTree = "<group>"; };
@@ -121,9 +123,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		2F3B8E2921E0C345003C1404 /* SHNDLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B8E2A21E0C389003C1404 /* SHNDShimmerLabel.swift */,
+			);
+			name = SHNDLabel;
+			sourceTree = "<group>";
+		};
 		2FBE30D221CE4BD200ABB709 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2F3B8E2921E0C345003C1404 /* SHNDLabel */,
 				2FBE30D621CE4C0E00ABB709 /* SHNDNavigationBar */,
 				2FBE30D521CE4BFD00ABB709 /* SHNDImageView */,
 				2FBE30D421CE4BF300ABB709 /* SHNDButton */,
@@ -436,6 +447,7 @@
 				2F4A2F4621DB7EFD00DEB1FF /* SHNDNavigationBar.swift in Sources */,
 				3ECFEE60F2DC52C40058ECF28025AB10 /* SHNDStuffs-dummy.m in Sources */,
 				2F4A2F4E21DB805400DEB1FF /* SHNDButtonAnimationFactory.swift in Sources */,
+				2F3B8E2B21E0C389003C1404 /* SHNDShimmerLabel.swift in Sources */,
 				2F4A2F4A21DB7FA300DEB1FF /* SHNDImageView.swift in Sources */,
 				2F4A2F4821DB7F6300DEB1FF /* SHNDNavigationCustomTitleView.swift in Sources */,
 				2F4A2F4C21DB800E00DEB1FF /* SHNDButton.swift in Sources */,
