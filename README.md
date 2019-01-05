@@ -72,14 +72,12 @@ Shimmer ,Shimmer ,Shimmer 😄, so simple and awesome as it should to be 😉:
 
 ```Swift
 
-override func viewDidLoad() {
-    super.viewDidLoad()
-
-
+override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    
     let builderObject = ShimmerObject.init(text: "shndRS",
                                            font: UIFont(name: "Papyrus", size: 73)!,
-                                           textAlignment: .center,
-                                           animationDuration: 2,
+                                           textAlignment: .center, animationDuration: 2,
                                            frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 400),
                                            parentView: view,
                                            mainLabelTextColor: .orange,
