@@ -78,7 +78,8 @@ override func viewDidLoad() {
 
     let builderObject = ShimmerObject.init(text: "shndRS",
                                            font: UIFont(name: "Papyrus", size: 73)!,
-                                           textAlignment: .center, animationDuration: 2,
+                                           textAlignment: .center,
+                                           animationDuration: 2,
                                            frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 400),
                                            parentView: view,
                                            mainLabelTextColor: .orange,
