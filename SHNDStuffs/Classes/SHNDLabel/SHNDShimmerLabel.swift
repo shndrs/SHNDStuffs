@@ -39,16 +39,16 @@ public struct SHNDShimmerFactory {
     }
 }
 
-fileprivate class SHNDShimmerLabel: ShimmerAnimation {
+fileprivate class SHNDShimmerLabel: ShimmerAnimation, ShimmerBuilder {
     
-    private var text:String!
-    private var font:UIFont!
-    private var textAlignment:NSTextAlignment!
-    private var animationDuration:CFTimeInterval!
-    private var frame:CGRect!
-    private var parentView:UIView!
-    private var mainLabelTextColor:UIColor!
-    private var maskLabelTextColor:UIColor!
+    fileprivate var text: String
+    fileprivate var font: UIFont
+    fileprivate var textAlignment: NSTextAlignment
+    fileprivate var frame: CGRect
+    fileprivate var parentView: UIView
+    fileprivate var animationDuration: CFTimeInterval
+    fileprivate var mainLabelTextColor: UIColor
+    fileprivate var maskLabelTextColor: UIColor
     
     fileprivate init(builder: ShimmerBuilder) {
         self.text = builder.text
