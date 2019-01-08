@@ -66,4 +66,53 @@ open class SHNDButton: UIButton {
             layer.shadowOffset = shadowOffset
         }
     }
+    
+    // MARK: Gradient Stuffs
+    
+    @IBInspectable var firstColor: UIColor = UIColor.white {
+        didSet {
+            update()
+        }
+    }
+    
+    @IBInspectable var secondColor: UIColor = UIColor.white {
+        didSet {
+            update()
+        }
+    }
+    
+    @IBInspectable var horizontalGradient: Bool = false {
+        didSet {
+            update()
+        }
+    }
+    
+    override open class var layerClass: AnyClass {
+        get {
+            return CAGradientLayer.self
+        }
+    }
+    
+    // MARK: Mask Stuffs
+    
+    @IBInspectable public var maskToBounds: Bool = false {
+        didSet {
+            layer.masksToBounds = maskToBounds
+        }
+    }
+    
+    // MARK: Funcs
+    
+    fileprivate func update() {
+        let layer = self.layer as! CAGradientLayer
+        layer.colors = [ firstColor.cgColor, secondColor.cgColor ]
+        
+        if (horizontalGradient) {
+            layer.startPoint = CGPoint(x: 0.0, y: 0.5)
+            layer.endPoint = CGPoint(x: 1.0, y: 0.5)
+        } else {
+            layer.startPoint = CGPoint(x: 0, y: 0)
+            layer.endPoint = CGPoint(x: 0, y: 1)
+        }
+    }
 }

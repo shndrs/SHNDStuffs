@@ -8,7 +8,7 @@
 import UIKit
 
 fileprivate protocol ShimmerAnimation {
-    func animate()
+    func animate() -> Void
 }
 
 public protocol ShimmerBuilder {

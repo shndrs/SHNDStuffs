@@ -63,12 +63,6 @@ open class SHNDImageView: UIImageView {
     
     // MARK: Funcs
     override open func layoutSubviews() {
-        //        super.layoutSubviews()
-        //        layer.shadowColor = shadowColor.cgColor
-        //        layer.shadowOpacity = Float(shadowOpacity)
-        //        layer.shadowRadius = shadowRadius
-        //        layer.masksToBounds = false
-        //        layer.shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: cornerRadius).cgPath
     }
     
     
