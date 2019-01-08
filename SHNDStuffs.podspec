@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHNDStuffs'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Make your UIView, UIButton, UINavigationBar, UIImageView and etc more awesome for your iOS apps.'
 
 # This description is used to generate tags and improve search results.
