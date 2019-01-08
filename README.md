@@ -16,8 +16,8 @@ for set UINavigationBar gradient and it's tintColor use the function below in vi
 override func viewDidLoad() {
     super.viewDidLoad()
         
-    SHNDNavigationBarGradient(leftColor: .darkGray,
-                              rightColor: .white,
+    SHNDNavigationBarGradient(firstColor: .darkGray,
+                              secondColor: .white,
                               tintColor: .black,
                               isHorizontal: true)
 }
