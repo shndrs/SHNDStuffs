@@ -7,12 +7,32 @@
 //
 
 import UIKit
+import SHNDStuffs
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Navigation gradient
+        
+        SHNDNavigationBarGradient(firstColor: .purple,
+                                  secondColor: .red,
+                                  tintColor: .black,
+                                  isHorizontal: true)
+        
+        // Custom title
+        
+        let navTitleBuilder = NavigationTitleViewBuilder(title: "SHNDStuffs",
+                                                         desc: "Navigation Bar Custom Title",
+                                                         titleFont: UIFont(name: "Papyrus", size: 18)!,
+                                                         descFont: UIFont(name: "Kailasa", size: 10)!,
+                                                         titleTextColor: .white,
+                                                         descTextColor: .white)
+        
+        SHNDNavigationCustomTitleView(builder: navTitleBuilder)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
