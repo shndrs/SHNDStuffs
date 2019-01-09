@@ -31,13 +31,26 @@ class ViewController: UIViewController {
                                                          descTextColor: .white)
         
         SHNDNavigationCustomTitleView(builder: navTitleBuilder)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
+        // Shimmer
         
+        let builderObject = ShimmerObject.init(text: "SHNDShimmer",
+                                               font: UIFont(name: "Papyrus", size: 41)!,
+                                               textAlignment: .center, animationDuration: 2,
+                                               frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 230),
+                                               parentView: view,
+                                               mainLabelTextColor: .orange,
+                                               maskLabelTextColor: .purple)
+        SHNDShimmerFactory.create(builder: builderObject)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
 }

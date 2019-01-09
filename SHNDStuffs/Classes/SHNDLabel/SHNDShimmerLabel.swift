@@ -31,10 +31,29 @@ public struct ShimmerObject: ShimmerBuilder {
     public var parentView: UIView
     public var mainLabelTextColor: UIColor
     public var maskLabelTextColor: UIColor
+    
+    public init(text:String,
+         font:UIFont,
+         textAlignment:NSTextAlignment,
+         animationDuration:CFTimeInterval,
+         frame:CGRect,
+         parentView:UIView,
+         mainLabelTextColor:UIColor,
+         maskLabelTextColor:UIColor) {
+        
+        self.text = text
+        self.font = font
+        self.textAlignment = textAlignment
+        self.animationDuration = animationDuration
+        self.frame = frame
+        self.parentView = parentView
+        self.mainLabelTextColor = mainLabelTextColor
+        self.maskLabelTextColor = maskLabelTextColor
+    }
 }
 
 public struct SHNDShimmerFactory {
-    static func create(builder: ShimmerBuilder) -> Void {
+    public static func create(builder: ShimmerBuilder) -> Void {
         SHNDShimmerLabel(builder: builder).animate()
     }
 }

@@ -20,13 +20,36 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Skervesen Raptor 7" translatesAutoresizingMaskIntoConstraints="NO" id="6Vn-XG-aGh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qbe-aa-lSA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ymB-sH-D3w">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Qbe-aa-lSA" secondAttribute="bottom" id="AUz-D8-Hs5"/>
+                            <constraint firstItem="6Vn-XG-aGh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Y0M-Sa-2uu"/>
+                            <constraint firstItem="Qbe-aa-lSA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="a4k-Iu-Qaj"/>
+                            <constraint firstItem="Qbe-aa-lSA" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="abb-LR-Yxm"/>
+                            <constraint firstAttribute="trailing" secondItem="6Vn-XG-aGh" secondAttribute="trailing" id="aj6-Nz-1Q8"/>
+                            <constraint firstAttribute="bottom" secondItem="6Vn-XG-aGh" secondAttribute="bottom" id="rAw-2j-aeO"/>
+                            <constraint firstItem="6Vn-XG-aGh" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="sCn-82-FAy"/>
+                            <constraint firstAttribute="trailing" secondItem="Qbe-aa-lSA" secondAttribute="trailing" id="stt-sb-c6r"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EbP-3J-f07"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="524" y="353"/>
+            <point key="canvasLocation" x="524" y="352.46305418719214"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kHj-Jo-O8k">
@@ -47,4 +70,7 @@
             <point key="canvasLocation" x="-217" y="354"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Skervesen Raptor 7" width="413" height="620"/>
+    </resources>
 </document>
