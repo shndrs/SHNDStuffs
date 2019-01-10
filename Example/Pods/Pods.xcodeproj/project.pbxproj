@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F3798C821E801E300B00F72 /* SHNDDynamicGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3798C721E801E300B00F72 /* SHNDDynamicGradientView.swift */; };
 		2F3B8E2B21E0C389003C1404 /* SHNDShimmerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B8E2A21E0C389003C1404 /* SHNDShimmerLabel.swift */; };
 		2F4A2F4621DB7EFD00DEB1FF /* SHNDNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4521DB7EFD00DEB1FF /* SHNDNavigationBar.swift */; };
 		2F4A2F4821DB7F6300DEB1FF /* SHNDNavigationCustomTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4721DB7F6300DEB1FF /* SHNDNavigationCustomTitleView.swift */; };
@@ -14,6 +15,13 @@
 		2F4A2F4C21DB800E00DEB1FF /* SHNDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4B21DB800E00DEB1FF /* SHNDButton.swift */; };
 		2F4A2F4E21DB805400DEB1FF /* SHNDButtonAnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4D21DB805400DEB1FF /* SHNDButtonAnimationFactory.swift */; };
 		2F4A2F5021DB808200DEB1FF /* SHNDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4F21DB808200DEB1FF /* SHNDView.swift */; };
+		2F86034421E5F1E00023AEE6 /* SHNDShimmerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B8E2A21E0C389003C1404 /* SHNDShimmerLabel.swift */; };
+		2F86034521E5F1E00023AEE6 /* SHNDNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4521DB7EFD00DEB1FF /* SHNDNavigationBar.swift */; };
+		2F86034621E5F1E00023AEE6 /* SHNDNavigationCustomTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4721DB7F6300DEB1FF /* SHNDNavigationCustomTitleView.swift */; };
+		2F86034721E5F1E00023AEE6 /* SHNDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4921DB7FA300DEB1FF /* SHNDImageView.swift */; };
+		2F86034821E5F1E00023AEE6 /* SHNDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4B21DB800E00DEB1FF /* SHNDButton.swift */; };
+		2F86034921E5F1E00023AEE6 /* SHNDButtonAnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4D21DB805400DEB1FF /* SHNDButtonAnimationFactory.swift */; };
+		2F86034A21E5F1E00023AEE6 /* SHNDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4F21DB808200DEB1FF /* SHNDView.swift */; };
 		3ECFEE60F2DC52C40058ECF28025AB10 /* SHNDStuffs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8733EEFFAF4C49B5423A505D31A92 /* SHNDStuffs-dummy.m */; };
 		4C039B92E7FFF48C9F89359008C92578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		68D4EBEC4F997BB31B00FF2661186112 /* Pods-SHNDStuffs_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F19FCFA289758902FC2295CE7C83836 /* Pods-SHNDStuffs_Tests-dummy.m */; };
@@ -50,6 +58,7 @@
 		2AB7F90B0DD494B2397987FBAD557D40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CAE9C96D2807E1AAD6F6E8DC774DEF9 /* Pods-SHNDStuffs_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHNDStuffs_Example-dummy.m"; sourceTree = "<group>"; };
 		2CBD2F633DA7A0B0C239841AC4F532B7 /* SHNDStuffs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHNDStuffs.xcconfig; sourceTree = "<group>"; };
+		2F3798C721E801E300B00F72 /* SHNDDynamicGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDDynamicGradientView.swift; path = SHNDStuffs/Classes/SHNDView/SHNDDynamicGradientView.swift; sourceTree = "<group>"; };
 		2F3B8E2A21E0C389003C1404 /* SHNDShimmerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDShimmerLabel.swift; path = SHNDStuffs/Classes/SHNDLabel/SHNDShimmerLabel.swift; sourceTree = "<group>"; };
 		2F4A2F4521DB7EFD00DEB1FF /* SHNDNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDNavigationBar.swift; path = SHNDStuffs/Classes/SHNDNavigationBar/SHNDNavigationBar.swift; sourceTree = "<group>"; };
 		2F4A2F4721DB7F6300DEB1FF /* SHNDNavigationCustomTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDNavigationCustomTitleView.swift; path = SHNDStuffs/Classes/SHNDNavigationBar/SHNDNavigationCustomTitleView.swift; sourceTree = "<group>"; };
@@ -147,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				2F4A2F4F21DB808200DEB1FF /* SHNDView.swift */,
+				2F3798C721E801E300B00F72 /* SHNDDynamicGradientView.swift */,
 			);
 			name = SHNDView;
 			sourceTree = "<group>";
@@ -445,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F4A2F4621DB7EFD00DEB1FF /* SHNDNavigationBar.swift in Sources */,
+				2F3798C821E801E300B00F72 /* SHNDDynamicGradientView.swift in Sources */,
 				3ECFEE60F2DC52C40058ECF28025AB10 /* SHNDStuffs-dummy.m in Sources */,
 				2F4A2F4E21DB805400DEB1FF /* SHNDButtonAnimationFactory.swift in Sources */,
 				2F3B8E2B21E0C389003C1404 /* SHNDShimmerLabel.swift in Sources */,
@@ -460,6 +471,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				86C058D912EB59A3651AD70DF8B2055B /* Pods-SHNDStuffs_Example-dummy.m in Sources */,
+				2F86034A21E5F1E00023AEE6 /* SHNDView.swift in Sources */,
+				2F86034421E5F1E00023AEE6 /* SHNDShimmerLabel.swift in Sources */,
+				2F86034921E5F1E00023AEE6 /* SHNDButtonAnimationFactory.swift in Sources */,
+				2F86034821E5F1E00023AEE6 /* SHNDButton.swift in Sources */,
+				2F86034521E5F1E00023AEE6 /* SHNDNavigationBar.swift in Sources */,
+				2F86034721E5F1E00023AEE6 /* SHNDImageView.swift in Sources */,
+				2F86034621E5F1E00023AEE6 /* SHNDNavigationCustomTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +653,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -671,6 +690,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

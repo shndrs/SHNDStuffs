@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        // Shimmer
+        // Shimmer label
         
         let builderObject = ShimmerObject.init(text: "SHNDShimmer",
                                                font: UIFont(name: "Papyrus", size: 41)!,
@@ -47,6 +47,12 @@ class ViewController: UIViewController {
                                                maskLabelTextColor: .purple)
         SHNDShimmerFactory.create(builder: builderObject)
     }
+    
+    @IBAction private func goToSHNDButtonVC(_ sender: SHNDButton) {
+        guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "SHNDButtonVC") as? SHNDButtonVC else { return }
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

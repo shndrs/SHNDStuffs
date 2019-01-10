@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F86034321E5EE830023AEE6 /* SHNDButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F86034221E5EE830023AEE6 /* SHNDButtonVC.swift */; };
+		2F86034D21E5F3770023AEE6 /* SHNDStuffs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F86034C21E5F3770023AEE6 /* SHNDStuffs.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		2BB3B59D0F51D454D8591C01 /* Pods-SHNDStuffs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHNDStuffs_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHNDStuffs_Tests/Pods-SHNDStuffs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F86034221E5EE830023AEE6 /* SHNDButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNDButtonVC.swift; sourceTree = "<group>"; };
+		2F86034C21E5F3770023AEE6 /* SHNDStuffs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SHNDStuffs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9A026666C23BB9B6503E6D /* Pods-SHNDStuffs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHNDStuffs_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHNDStuffs_Tests/Pods-SHNDStuffs_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5543ACDDDFEA79838D14643C /* Pods_SHNDStuffs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHNDStuffs_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SHNDStuffs_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHNDStuffs_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F86034D21E5F3770023AEE6 /* SHNDStuffs.framework in Frameworks */,
 				AED2E22BE8FB62486DE8161D /* Pods_SHNDStuffs_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +77,7 @@
 		59BD86D805191F7617F8EF67 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2F86034C21E5F3770023AEE6 /* SHNDStuffs.framework */,
 				5543ACDDDFEA79838D14643C /* Pods_SHNDStuffs_Example.framework */,
 				AF3F7744B3DD72C819AF1256 /* Pods_SHNDStuffs_Tests.framework */,
 			);
@@ -104,6 +110,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				2F86034221E5EE830023AEE6 /* SHNDButtonVC.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -212,10 +219,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KRGCDU34JU;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KRGCDU34JU;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -335,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				2F86034321E5EE830023AEE6 /* SHNDButtonVC.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +491,7 @@
 			baseConfigurationReference = EBA83B753768EF615CCEE328 /* Pods-SHNDStuffs_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KRGCDU34JU;
 				INFOPLIST_FILE = SHNDStuffs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -497,6 +508,7 @@
 			baseConfigurationReference = 95BF810684EC9848E1672472 /* Pods-SHNDStuffs_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KRGCDU34JU;
 				INFOPLIST_FILE = SHNDStuffs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -512,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2BB3B59D0F51D454D8591C01 /* Pods-SHNDStuffs_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = KRGCDU34JU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -534,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F9A026666C23BB9B6503E6D /* Pods-SHNDStuffs_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = KRGCDU34JU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
