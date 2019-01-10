@@ -105,6 +105,8 @@ For using SHNDView, SHNDButton, SHNDImageView just put one of these classes into
 
 # SHNDDynamicGradientView
 
+Have you ever seen Instagram login/sign up page Dynamic Gradient View? Well let me give you some good news, i've got something for you fellas here in SHNDStuffs that you can have that animation in your app, it's quite simple:
+
 ```Swift
 
 let object = SHNDDynamicGradientViewObject.init(colorArray: colorArray,
@@ -114,6 +116,19 @@ let object = SHNDDynamicGradientViewObject.init(colorArray: colorArray,
 SHNDDynamicGradientView(builder: object).animate()
 
 ```
+ps: and colorArray is an array of UIColor tuple like this:
+
+```Swift
+var colorArray:[(firstColor:UIColor, secondColor:UIColor)] = []
+```
+go and append whatever colors you want into it:
+
+```Swift
+colorArray.append((firstColor: .purple, secondColor: .gray))
+colorArray.append((firstColor: .red, secondColor: .blue))
+colorArray.append((firstColor: .orange, secondColor: .brown))
+```
+and now you have it  😉
 
 ## Requirements
 Swift 4.0 or later
