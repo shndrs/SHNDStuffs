@@ -103,6 +103,18 @@ For using SHNDView, SHNDButton, SHNDImageView just put one of these classes into
 ![shndviewimage](https://user-images.githubusercontent.com/34839080/50561395-7c2d4680-0d1f-11e9-981a-be082bd8335d.png)
 
 
+# SHNDDynamicGradientView
+
+```Swift
+
+let object = SHNDDynamicGradientViewObject.init(colorArray: colorArray,
+                                                duration: 8,
+                                                shndView: gradientView)
+
+SHNDDynamicGradientView(builder: object).animate()
+
+```
+
 ## Requirements
 Swift 4.0 or later
 ## Installation
