@@ -22,6 +22,7 @@
 		2F86034821E5F1E00023AEE6 /* SHNDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4B21DB800E00DEB1FF /* SHNDButton.swift */; };
 		2F86034921E5F1E00023AEE6 /* SHNDButtonAnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4D21DB805400DEB1FF /* SHNDButtonAnimationFactory.swift */; };
 		2F86034A21E5F1E00023AEE6 /* SHNDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F4F21DB808200DEB1FF /* SHNDView.swift */; };
+		2FA7CE7C21EA086500AD7AE3 /* SHNDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA7CE7B21EA086500AD7AE3 /* SHNDTextField.swift */; };
 		3ECFEE60F2DC52C40058ECF28025AB10 /* SHNDStuffs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8733EEFFAF4C49B5423A505D31A92 /* SHNDStuffs-dummy.m */; };
 		4C039B92E7FFF48C9F89359008C92578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		68D4EBEC4F997BB31B00FF2661186112 /* Pods-SHNDStuffs_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F19FCFA289758902FC2295CE7C83836 /* Pods-SHNDStuffs_Tests-dummy.m */; };
@@ -66,6 +67,7 @@
 		2F4A2F4B21DB800E00DEB1FF /* SHNDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDButton.swift; path = SHNDStuffs/Classes/SHNDButton/SHNDButton.swift; sourceTree = "<group>"; };
 		2F4A2F4D21DB805400DEB1FF /* SHNDButtonAnimationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDButtonAnimationFactory.swift; path = SHNDStuffs/Classes/SHNDButton/SHNDButtonAnimationFactory.swift; sourceTree = "<group>"; };
 		2F4A2F4F21DB808200DEB1FF /* SHNDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDView.swift; path = SHNDStuffs/Classes/SHNDView/SHNDView.swift; sourceTree = "<group>"; };
+		2FA7CE7B21EA086500AD7AE3 /* SHNDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDTextField.swift; path = SHNDStuffs/Classes/SHNDTextField/SHNDTextField.swift; sourceTree = "<group>"; };
 		4A80F06870D03F12D5FC5CCEDDD3B2A2 /* Pods-SHNDStuffs_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDStuffs_Example-resources.sh"; sourceTree = "<group>"; };
 		4BD12550A5F0F9D5CDED7B79AFC684F6 /* Pods-SHNDStuffs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDStuffs_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E62D797312C2D413E5D05809D3EAA4D /* Pods-SHNDStuffs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDStuffs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,9 +142,18 @@
 			name = SHNDLabel;
 			sourceTree = "<group>";
 		};
+		2FA7CE7A21EA083600AD7AE3 /* SHNDTextField */ = {
+			isa = PBXGroup;
+			children = (
+				2FA7CE7B21EA086500AD7AE3 /* SHNDTextField.swift */,
+			);
+			name = SHNDTextField;
+			sourceTree = "<group>";
+		};
 		2FBE30D221CE4BD200ABB709 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2FA7CE7A21EA083600AD7AE3 /* SHNDTextField */,
 				2F3B8E2921E0C345003C1404 /* SHNDLabel */,
 				2FBE30D621CE4C0E00ABB709 /* SHNDNavigationBar */,
 				2FBE30D521CE4BFD00ABB709 /* SHNDImageView */,
@@ -462,6 +473,7 @@
 				2F4A2F4A21DB7FA300DEB1FF /* SHNDImageView.swift in Sources */,
 				2F4A2F4821DB7F6300DEB1FF /* SHNDNavigationCustomTitleView.swift in Sources */,
 				2F4A2F4C21DB800E00DEB1FF /* SHNDButton.swift in Sources */,
+				2FA7CE7C21EA086500AD7AE3 /* SHNDTextField.swift in Sources */,
 				2F4A2F5021DB808200DEB1FF /* SHNDView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
