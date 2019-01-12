@@ -96,7 +96,7 @@ And this is how it looks:
 
 
 
-# SHNDView, SHNDButton, SHNDImageView
+# SHNDView, SHNDButton, SHNDImageView, SHNDTextField
 
 For using SHNDView, SHNDButton, SHNDImageView just put one of these classes into subclass of your objects, and that's set... you have AWESOME features in your NavigationInspector
 
