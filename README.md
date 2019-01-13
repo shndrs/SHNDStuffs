@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/SHNDStuffs.svg?colorB=green)](https://cocoapods.org/pods/SHNDStuffs)
 [![Platform](https://img.shields.io/cocoapods/p/SHNDStuffs.svg?style=flat)](https://cocoapods.org/pods/SHNDStuffs)
 
+<img src="https://raw.githubusercontent.com/Carthage/Carthage/master/Logo/PNG/colored.png" width="32px" height="32px" />  <img src="https://raw.githubusercontent.com/CocoaPods/shared_resources/master/img/CocoaPods-Logo-Highlight.png" width="128px" height="32px" />
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
