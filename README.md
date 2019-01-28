@@ -136,7 +136,7 @@ and now you have it  😉
 iOS 9.0+, Xcode 10.0, Swift 4.0 or later
 ## Installation
 
-SHNDStuffs is available through [CocoaPods](https://cocoapods.org). To install
+SHNDStuffs is available through [CocoaPods](https://cocoapods.org/pods/SHNDStuffs). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
