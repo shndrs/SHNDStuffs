@@ -133,7 +133,11 @@ colorArray.append((firstColor: .orange, secondColor: .brown))
 and now you have it  😉
 
 ## Requirements
-iOS 9.0+, Xcode 10.0, Swift 4.0 or later
+
+<p>iOS 9.0+</p>
+<p>Xcode 10.0</p>  
+<p>Swift 4.0 or later</p>
+
 ## Installation
 
 SHNDStuffs is available through [CocoaPods](https://cocoapods.org/pods/SHNDStuffs). To install
