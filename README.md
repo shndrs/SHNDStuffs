@@ -34,7 +34,6 @@ For set UINavigationBarItem custom title view use the builder pattern below in v
 
 ```Swift
 
-
 override func viewDidLoad() {
     super.viewDidLoad()
     let navTitleBuilder = NavigationTitleViewBuilder(title: "SHNDStuffs",
@@ -45,7 +44,6 @@ override func viewDidLoad() {
                                                      descTextColor: .black)
     SHNDNavigationCustomTitleView(builder: navTitleBuilder)                                                     
 }
-
 ```
 
 ![shndnavcustomtitleview](https://user-images.githubusercontent.com/34839080/50560864-22764d80-0d1a-11e9-8ed5-51e500ead09f.png)
@@ -57,7 +55,6 @@ so simple, right?! 😋😋
 if you wanna get an animation(shake, pulsate or flash) after you tapped the button :
 
 ```Swift
-
 @IBAction func buttonPressed(_ sender: SHNDButton) {
 
     let animationElements = AnimationElements(duration: 0.1,
@@ -66,7 +63,6 @@ if you wanna get an animation(shake, pulsate or flash) after you tapped the butt
                                               animationMode: .shake)
     sender.SHNDButtonAnimation(animationElements: animationElements)
 }
-
 ```
 
 # SHNDShimmerLabel
