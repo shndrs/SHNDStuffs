@@ -9,14 +9,14 @@ import UIKit
 
 public extension UINavigationBar {
     
-    public func applyNavigationGradient( _ colors : [UIColor], isHorizontal:Bool = true) {
+    func applyNavigationGradient( _ colors : [UIColor], isHorizontal:Bool = true) {
         var frameAndStatusBar: CGRect = self.bounds
         frameAndStatusBar.size.height += 20
         
         setBackgroundImage(UINavigationBar.gradient(frameAndStatusBar.size, colors: colors,isHorizontal: isHorizontal), for: .default)
     }
     
-    static public func gradient(_ size : CGSize, colors : [UIColor], isHorizontal:Bool) -> UIImage? {
+    static func gradient(_ size : CGSize, colors : [UIColor], isHorizontal:Bool) -> UIImage? {
         
         let cgcolors = colors.map { $0.cgColor }
         UIGraphicsBeginImageContextWithOptions(size, true, 0.0)
@@ -46,7 +46,7 @@ public extension UIViewController {
     
     // call this function inside your viewDidLoad() and enjoy it
     
-    public func SHNDNavigationBarGradient(firstColor:UIColor, secondColor:UIColor, tintColor:UIColor? = .black, isHorizontal:Bool? = true) {
+    func SHNDNavigationBarGradient(firstColor:UIColor, secondColor:UIColor, tintColor:UIColor? = .black, isHorizontal:Bool? = true) {
         
         navigationController?.navigationBar.tintColor = tintColor
         navigationController?.navigationBar.applyNavigationGradient([firstColor, secondColor],isHorizontal: isHorizontal!)

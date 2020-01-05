@@ -62,7 +62,7 @@ public struct NavigationTitleViewBuilder: TitleViewBuilder {
 }
 
 public extension UINavigationItem {
-    public func addCustomTitleView(builder: TitleViewBuilder){
+    func addCustomTitleView(builder: TitleViewBuilder){
         let view = NavTitleView(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
         view.initWith(builder: builder)
         self.titleView = view
@@ -130,7 +130,7 @@ public class NavTitleView: UIView {
 }
 
 public extension UIViewController {
-    public func SHNDNavigationCustomTitleView(builder: TitleViewBuilder) {
+    func SHNDNavigationCustomTitleView(builder: TitleViewBuilder) {
         let backButton = UIBarButtonItem(
             title: "",
             style: UIBarButtonItem.Style.plain,
