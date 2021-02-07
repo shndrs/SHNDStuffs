@@ -20,21 +20,21 @@ public struct AnimationElements {
     private(set) var autoreverses: Bool
     private(set) var animationMode: SHNDButtonAnimationMode
     
-    public init(duration: CFTimeInterval, repeatCount: Float, autoreverses: Bool, animationMode: SHNDButtonAnimationMode) {
+    public init(duration: CFTimeInterval, repeatCount: Float,
+                autoreverses: Bool, animationMode: SHNDButtonAnimationMode) {
         self.duration = duration
         self.repeatCount = repeatCount
         self.autoreverses = autoreverses
         self.animationMode = animationMode
     }
+    
 }
 
 extension SHNDButton {
     
     @available(iOS 9.0, *)
     public func SHNDButtonAnimation(animationElements:AnimationElements) -> Void {
-        
         switch animationElements.animationMode {
-            
         case .pulsate:
             pulsateAnimation(animationElements: animationElements)
         case .flash:
@@ -54,7 +54,6 @@ extension SHNDButton {
         pulse.repeatCount = animationElements.repeatCount
         pulse.initialVelocity = 0.5
         pulse.damping = 1.0
-        
         layer.add(pulse, forKey: "pulse")
     }
     
@@ -66,7 +65,6 @@ extension SHNDButton {
         flash.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         flash.autoreverses = animationElements.autoreverses
         flash.repeatCount = animationElements.repeatCount
-        
         layer.add(flash, forKey: nil)
     }
     
@@ -75,16 +73,13 @@ extension SHNDButton {
         shake.duration = animationElements.duration
         shake.repeatCount = animationElements.repeatCount
         shake.autoreverses = animationElements.autoreverses
-        
         let fromPoint = CGPoint(x: center.x - 5, y: center.y)
         let fromValue = NSValue(cgPoint: fromPoint)
-        
         let toPoint = CGPoint(x: center.x + 5, y: center.y)
         let toValue = NSValue(cgPoint: toPoint)
-        
         shake.fromValue = fromValue
         shake.toValue = toValue
-        
         layer.add(shake, forKey: "position")
     }
+    
 }
