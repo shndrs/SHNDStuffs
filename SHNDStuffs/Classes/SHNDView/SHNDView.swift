@@ -17,19 +17,16 @@ open class SHNDView: UIView {
             layer.borderColor = borderColor.cgColor
         }
     }
-    
     @IBInspectable public var borderWidth: CGFloat = 0.0 {
         didSet {
             layer.borderWidth = borderWidth
         }
     }
-    
     @IBInspectable public var cornerRadius: CGFloat = 0.0 {
         didSet {
             layer.cornerRadius = cornerRadius
         }
     }
-    
     @IBInspectable public var circularView: Bool = false {
         didSet {
             if circularView {
@@ -48,19 +45,16 @@ open class SHNDView: UIView {
             layer.shadowOpacity = Float(shadowOpacity)
         }
     }
-    
     @IBInspectable public var shadowRadius: CGFloat = 0.0 {
         didSet {
             layer.shadowRadius = shadowRadius
         }
     }
-    
     @IBInspectable public var shadowColor: UIColor = .clear {
         didSet {
             layer.shadowColor = shadowColor.cgColor
         }
     }
-    
     @IBInspectable public var shadowOffset: CGSize = CGSize(width: 0.0, height: 0.0) {
         didSet {
             layer.shadowOffset = shadowOffset
@@ -74,19 +68,16 @@ open class SHNDView: UIView {
             update()
         }
     }
-    
     @IBInspectable var secondColor: UIColor = UIColor.white {
         didSet {
             update()
         }
     }
-    
     @IBInspectable var horizontalGradient: Bool = false {
         didSet {
             update()
         }
     }
-    
     override open class var layerClass: AnyClass {
         get {
             return CAGradientLayer.self
@@ -114,7 +105,6 @@ open class SHNDView: UIView {
     fileprivate func update() {
         let layer = self.layer as! CAGradientLayer
         layer.colors = [ firstColor.cgColor, secondColor.cgColor ]
-        
         if (horizontalGradient) {
             layer.startPoint = CGPoint(x: 0.0, y: 0.5)
             layer.endPoint = CGPoint(x: 1.0, y: 0.5)
@@ -123,4 +113,5 @@ open class SHNDView: UIView {
             layer.endPoint = CGPoint(x: 0, y: 1)
         }
     }
+    
 }

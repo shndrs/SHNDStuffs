@@ -23,7 +23,7 @@ public struct SHNDDynamicGradientViewObject: SHNDDynamicGradientViewDelegate {
     public var shndView: SHNDView
 }
 
-open class SHNDDynamicGradientView:SHNDDynamicGradientViewDelegate, TransitionProtocol {
+open class SHNDDynamicGradientView: SHNDDynamicGradientViewDelegate, TransitionProtocol {
     
     public var colorArray: [(firstColor: UIColor, secondColor: UIColor)]
     public var duration: TimeInterval
@@ -37,9 +37,7 @@ open class SHNDDynamicGradientView:SHNDDynamicGradientViewDelegate, TransitionPr
     }
     
     public func animate() {
-        
         currentColorArrayIndex = currentColorArrayIndex == (colorArray.count - 1) ? 0 : currentColorArrayIndex + 1
-        
         UIView.transition(with: shndView,
                           duration: duration,
                           options: [.transitionCrossDissolve],
@@ -54,5 +52,5 @@ open class SHNDDynamicGradientView:SHNDDynamicGradientViewDelegate, TransitionPr
             self.animate()
         }
     }
+    
 }
-
