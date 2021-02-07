@@ -63,7 +63,7 @@ extension SHNDButton {
         flash.duration = animationElements.duration
         flash.fromValue = 1
         flash.toValue = 0.1
-        flash.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        flash.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         flash.autoreverses = animationElements.autoreverses
         flash.repeatCount = animationElements.repeatCount
         

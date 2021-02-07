@@ -23,6 +23,7 @@ public protocol ShimmerBuilder {
 }
 
 public struct ShimmerObject: ShimmerBuilder {
+    
     public var text: String
     public var font: UIFont
     public var textAlignment: NSTextAlignment
@@ -33,14 +34,13 @@ public struct ShimmerObject: ShimmerBuilder {
     public var maskLabelTextColor: UIColor
     
     public init(text:String,
-         font:UIFont,
-         textAlignment:NSTextAlignment,
-         animationDuration:CFTimeInterval,
-         frame:CGRect,
-         parentView:UIView,
-         mainLabelTextColor:UIColor,
-         maskLabelTextColor:UIColor) {
-        
+                font:UIFont,
+                textAlignment:NSTextAlignment,
+                animationDuration:CFTimeInterval,
+                frame:CGRect,
+                parentView:UIView,
+                mainLabelTextColor:UIColor,
+                maskLabelTextColor:UIColor) {
         self.text = text
         self.font = font
         self.textAlignment = textAlignment
@@ -53,9 +53,11 @@ public struct ShimmerObject: ShimmerBuilder {
 }
 
 public struct SHNDShimmerFactory {
+    
     public static func create(builder: ShimmerBuilder) -> Void {
         SHNDShimmerLabel(builder: builder).animate()
     }
+    
 }
 
 fileprivate class SHNDShimmerLabel: ShimmerAnimation, ShimmerBuilder {
@@ -87,36 +89,28 @@ fileprivate class SHNDShimmerLabel: ShimmerAnimation, ShimmerBuilder {
         mainLabel.font = font
         mainLabel.textAlignment = textAlignment
         mainLabel.frame = frame
-        
         let maskLabel = UILabel()
         maskLabel.text = text
         maskLabel.textColor = maskLabelTextColor
         maskLabel.font = font
         maskLabel.textAlignment = textAlignment
         maskLabel.frame = frame
-        
         parentView.addSubview(mainLabel)
         parentView.addSubview(maskLabel)
-        
         let gradientlayer = CAGradientLayer()
         gradientlayer.colors = [UIColor.clear.cgColor,
                                 UIColor.white.cgColor,
                                 UIColor.clear.cgColor]
         gradientlayer.locations = [0, 0.5, 1]
         gradientlayer.frame = maskLabel.frame
-        
         let angle = Radian(degrees: 45).value()
-        
         gradientlayer.transform = CATransform3DMakeRotation(angle, 0, 0, 1)
-        
         maskLabel.layer.mask = gradientlayer
-        
         let animation = CABasicAnimation(keyPath: "transform.translation.x")
         animation.duration = animationDuration
         animation.fromValue = -parentView.frame.width
         animation.toValue = parentView.frame.width
         animation.repeatCount = Float.infinity
-        
         gradientlayer.add(animation, forKey: "shnd")
     }
 }
@@ -133,4 +127,5 @@ fileprivate class Radian {
     public func value() -> CGFloat {
         return CGFloat(degrees * .pi / 180)
     }
+    
 }
