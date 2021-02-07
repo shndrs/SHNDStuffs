@@ -33,7 +33,7 @@ public struct AnimationElements {
 extension SHNDButton {
     
     @available(iOS 9.0, *)
-    public func SHNDButtonAnimation(animationElements:AnimationElements) -> Void {
+    public func SHNDButtonAnimation(animationElements: AnimationElements) -> Void {
         switch animationElements.animationMode {
         case .pulsate:
             pulsateAnimation(animationElements: animationElements)
@@ -62,7 +62,7 @@ extension SHNDButton {
         flash.duration = animationElements.duration
         flash.fromValue = 1
         flash.toValue = 0.1
-        flash.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
+        flash.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
         flash.autoreverses = animationElements.autoreverses
         flash.repeatCount = animationElements.repeatCount
         layer.add(flash, forKey: nil)

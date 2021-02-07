@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author           = { 'sahandraeisi1994@gmail.com' => 'sahandraeisi@yahoo.com' }
   s.source           = { :git => 'https://github.com/shndrs/SHNDStuffs.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.swift_version = '4.0'
+  s.swift_version = '5.3'
   s.source_files = 'SHNDStuffs/Classes/**/*'
   s.frameworks = 'UIKit'
   
