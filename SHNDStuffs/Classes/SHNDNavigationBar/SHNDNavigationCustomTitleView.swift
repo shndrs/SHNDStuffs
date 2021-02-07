@@ -26,7 +26,6 @@ public struct NavigationTitleViewElements {
     public private(set) var descTextColor:UIColor
     
     init(builder: TitleViewBuilder) {
-        
         self.title = builder.title
         self.desc = builder.desc
         self.titleFont = builder.titleFont
@@ -51,7 +50,6 @@ public struct NavigationTitleViewBuilder: TitleViewBuilder {
                 descFont: UIFont,
                 titleTextColor: UIColor,
                 descTextColor: UIColor) {
-        
         self.title = title
         self.desc = desc
         self.titleFont = titleFont
@@ -59,14 +57,17 @@ public struct NavigationTitleViewBuilder: TitleViewBuilder {
         self.titleTextColor = titleTextColor
         self.descTextColor = descTextColor
     }
+    
 }
 
 public extension UINavigationItem {
+    
     func addCustomTitleView(builder: TitleViewBuilder){
         let view = NavTitleView(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
         view.initWith(builder: builder)
         self.titleView = view
     }
+    
 }
 
 public class NavTitleView: UIView {
@@ -90,26 +91,23 @@ public class NavTitleView: UIView {
         titleLabel.textAlignment = .center
         titleLabel.adjustsFontSizeToFitWidth = true
         titleLabel.minimumScaleFactor = 0.5
-        
-        titleLabel.setContentHuggingPriority(UILayoutPriority.init(rawValue: 252), for: NSLayoutConstraint.Axis.horizontal)
-        titleLabel.setContentCompressionResistancePriority(UILayoutPriority.init(rawValue: 752), for: NSLayoutConstraint.Axis.horizontal)
+        titleLabel.setContentHuggingPriority(UILayoutPriority.init(rawValue: 252),
+                                             for: NSLayoutConstraint.Axis.horizontal)
+        titleLabel.setContentCompressionResistancePriority(UILayoutPriority.init(rawValue: 752),
+                                                           for: NSLayoutConstraint.Axis.horizontal)
         addSubview(titleLabel)
-        
         descLabel = UILabel()
         descLabel.textColor = .black
         descLabel.textAlignment = .center
         descLabel.adjustsFontSizeToFitWidth = true
         descLabel.minimumScaleFactor = 0.5
-        
         addSubview(descLabel)
     }
     
     public func initWith(builder:TitleViewBuilder){
-        
         titleLabel.text = builder.title
         titleLabel.font = builder.titleFont
         titleLabel.textColor = builder.titleTextColor
-        
         descLabel.text = builder.desc
         descLabel.font = builder.descFont
         descLabel.textColor = builder.descTextColor
@@ -121,15 +119,16 @@ public class NavTitleView: UIView {
         var rect = self.bounds
         rect.size.height *= hasDesc ? 0.6 : 1
         titleLabel.frame = rect
-        
         var rect1 = self.bounds
         rect1.origin.y += titleLabel.frame.height
         rect1.size.height *= hasDesc ? 0.3 : 0
         descLabel.frame = rect1
     }
+    
 }
 
 public extension UIViewController {
+    
     func SHNDNavigationCustomTitleView(builder: TitleViewBuilder) {
         let backButton = UIBarButtonItem(
             title: "",
@@ -140,4 +139,5 @@ public extension UIViewController {
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton;
         self.navigationItem.addCustomTitleView(builder: builder)
     }
+    
 }
