@@ -1,14 +1,7 @@
-#
-# Be sure to run `pod lib lint SHNDStuffs.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'SHNDStuffs'
-  s.version          = '2.0.1'
+  s.version          = '2.0.2'
   s.summary          = 'Make your UIView, UIButton, UINavigationBar, UIImageView and etc more awesome for your iOS apps.'
 
   s.description      = <<-DESC

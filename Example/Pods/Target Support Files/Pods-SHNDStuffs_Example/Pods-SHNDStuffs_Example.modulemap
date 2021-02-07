@@ -1,6 +1,0 @@
-framework module Pods_SHNDStuffs_Example {
-  umbrella header "Pods-SHNDStuffs_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
