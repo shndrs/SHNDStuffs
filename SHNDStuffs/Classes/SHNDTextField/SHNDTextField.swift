@@ -12,36 +12,36 @@ import UIKit
 @IBDesignable
 open class SHNDTextField: UITextField {
     
-    @IBInspectable var leftImage: UIImage? {
+    @IBInspectable public var leftImage: UIImage? {
         didSet {
             updateView()
         }
     }
-    
-    @IBInspectable var leftPadding: CGFloat = 0 {
+    @IBInspectable public var leftPadding: CGFloat = 0 {
         didSet {
             updateView()
         }
     }
-    
-    @IBInspectable var rightImage: UIImage? {
+    @IBInspectable public var rightImage: UIImage? {
         didSet {
             updateView()
         }
     }
-    
-    @IBInspectable var rightPadding: CGFloat = 0 {
+    @IBInspectable public var rightPadding: CGFloat = 0 {
         didSet {
             updateView()
         }
     }
-    
+    @IBInspectable public var cornerRadius: CGFloat = 0 {
+        didSet {
+            self.layer.cornerRadius = cornerRadius
+        }
+    }
     private var _isRightViewVisible: Bool = true
-    var isRightViewVisible: Bool {
+    public var isRightViewVisible: Bool {
         get {
             return _isRightViewVisible
-        }
-        set {
+        } set {
             _isRightViewVisible = newValue
             updateView()
         }
@@ -50,7 +50,6 @@ open class SHNDTextField: UITextField {
     fileprivate func updateView() {
         setLeftImage()
         setRightImage()
-        
         attributedPlaceholder = NSAttributedString(string: placeholder != nil ? placeholder! : "",
                                                    attributes:[NSAttributedString.Key.foregroundColor: tintColor ?? .black])
     }
@@ -93,12 +92,4 @@ open class SHNDTextField: UITextField {
         rightView = view
     }
     
-    
-    // MARK: - Corner Radius
-    @IBInspectable var cornerRadius: CGFloat = 0 {
-        didSet {
-            self.layer.cornerRadius = cornerRadius
-        }
-    }
 }
-
