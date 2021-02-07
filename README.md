@@ -1,7 +1,6 @@
 # SHNDStuffs
 
-[![CI Status](https://img.shields.io/travis/sahandraeisi1994@gmail.com/SHNDStuffs.svg?colorB=brightgreen)](https://travis-ci.org/sahandraeisi1994@gmail.com/SHNDStuffs)
-![swift-version](https://img.shields.io/badge/Swift-4.2-blueviolet.svg)
+![swift-version](https://img.shields.io/badge/Swift-5.3-blueviolet.svg)
 [![Version](https://img.shields.io/cocoapods/v/SHNDStuffs.svg?style=flat)](https://cocoapods.org/pods/SHNDStuffs)
 [![License](https://img.shields.io/cocoapods/l/SHNDStuffs.svg?colorB=green)](https://cocoapods.org/pods/SHNDStuffs)
 [![Platform](https://img.shields.io/cocoapods/p/SHNDStuffs.svg?style=flat)](https://cocoapods.org/pods/SHNDStuffs)
