@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sahandraeisi1994@gmail.com' => 'sahandraeisi@yahoo.com' }
   s.source           = { :git => 'https://github.com/shndrs/SHNDStuffs.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.swift_version = '4.0'
   s.source_files = 'SHNDStuffs/Classes/**/*'
   s.frameworks = 'UIKit'
